@@ -3,7 +3,7 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
 import Profile from './pages/Profile';
-import Error404 from './pages/Error/Error404';
+import Error404 from './pages/Error404';
 
 function App() {
   return (

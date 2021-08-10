@@ -1,5 +1,4 @@
 import { useHistory } from 'react-router-dom';
-import './Error404.scss';
 
 const Error404 = () => {
   const history = useHistory();

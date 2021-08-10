@@ -22,10 +22,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "test:formatting": "prettier --check \"./**/*.{js,jsx}\"",
-    "test:formatting:all": "prettier --check \"./**/*.{js,jsx,html,scss}\"",
-    "test:formatting:fix": "prettier --write \"./**/*.{js,jsx}\"",
-    "test:formatting:fix:all": "prettier --write \"./**/*.{js,jsx,html,scss}\""
+    "formatting": "prettier --check \"./**/*.{js,jsx}\"",
+    "formatting:all": "prettier --check \"./**/*.{js,jsx,html,scss}\"",
+    "formatting:fix": "prettier --write \"./**/*.{js,jsx}\"",
+    "formatting:fix:all": "prettier --write \"./**/*.{js,jsx,html,scss}\""
   },
   "eslintConfig": {
     "extends": [

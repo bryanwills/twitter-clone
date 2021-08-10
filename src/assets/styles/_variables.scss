@@ -1,23 +1,32 @@
-// Colors
-/// Main colors
+// -- Colors --
+// - Main colors
 $primary: #1da1f2;
 $dark-900: #0f1419;
 $dark-700: #5b7083;
 $dark-500: #f7f9fa;
 $light: #ffffff;
 $danger: #f4245e;
-/// Specific colors
+// - Specific colors
+// -- Text
 $text-primary: $dark-900;
 $text-secondary: $dark-700;
-$like: $danger;
-$border-clr-700: #8899a6;
+// -- Border
 $border-clr-500: #ebeef0;
+$border-clr-700: #8899a6;
+// -- Input
+$search-input-bg: #ebeef0;
+$search-input-fg: $dark-700;
+// -- Selections
+$select-bg: $primary;
+$select-fg: $light;
 
-// Sizes
-/// Container
+// -- Sizes --
+// - Container
 $container-width: 1320px;
 $container-padding: 20px;
-/// Radius
+// - Radius
+$radius-sm: 16px;
 $radius: 100px;
-/// Sidebar
-$sidebar-content-width: 85%;
+// - Sidebar
+$sidebar-container-width: 85%;
+$suggestions-container-width: 90%;

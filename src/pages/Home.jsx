@@ -1,11 +1,12 @@
-import { Fragment } from 'react';
 import Sidebar from '../components/Sidebar/Sidebar';
+import Suggestions from '../components/Suggestions/Suggestions';
 
 const Home = () => {
   return (
-    <Fragment>
+    <div className="main">
       <Sidebar />
-    </Fragment>
+      <Suggestions />
+    </div>
   );
 };
 

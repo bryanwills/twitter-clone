@@ -12,6 +12,12 @@
   color: $text-primary;
 }
 
+*::selection,
+*::-moz-selection {
+  background-color: $select-bg;
+  color: $select-fg;
+}
+
 button {
   cursor: pointer;
 }
@@ -21,4 +27,10 @@ button {
   height: 100%;
   padding: 0 $container-padding;
   margin: 0 auto;
+}
+
+.main {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
 }

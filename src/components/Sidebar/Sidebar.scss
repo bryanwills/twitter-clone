@@ -7,6 +7,10 @@
   padding: 10px 0;
   border-right: 1px solid $border-clr-500;
 
+  &-container {
+    max-width: $sidebar-container-width;
+  }
+
   &__logo {
     margin-left: 10px;
     width: 30px;
@@ -15,13 +19,12 @@
   }
 
   &__btn {
-    width: $sidebar-content-width;
+    width: 100%;
     padding: 15px 40px 14px 40px;
     @include btnCommonState;
   }
 
   &-nav {
-    max-width: $sidebar-content-width;
     margin: 5px 0 20px 0;
 
     &-list {
