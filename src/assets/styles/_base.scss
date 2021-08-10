@@ -1,0 +1,24 @@
+#root {
+  overflow: hidden;
+  height: 100vh;
+  min-height: 100vh;
+  max-height: 100vh;
+}
+
+:root {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'FreeSans', Helvetica, Arial, sans-serif;
+  color: $text-primary;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: $container-width;
+  height: 100%;
+  padding: 0 $container-padding;
+  margin: 0 auto;
+}

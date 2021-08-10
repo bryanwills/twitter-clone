@@ -1,0 +1,5 @@
+# Twitter clone
+
+## License
+
+MIT

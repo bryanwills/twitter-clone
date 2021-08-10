@@ -1,0 +1,23 @@
+// Colors
+/// Main colors
+$primary: #1da1f2;
+$dark-900: #0f1419;
+$dark-700: #5b7083;
+$dark-500: #f7f9fa;
+$light: #ffffff;
+$danger: #f4245e;
+/// Specific colors
+$text-primary: $dark-900;
+$text-secondary: $dark-700;
+$like: $danger;
+$border-clr-700: #8899a6;
+$border-clr-500: #ebeef0;
+
+// Sizes
+/// Container
+$container-width: 1320px;
+$container-padding: 20px;
+/// Radius
+$radius: 100px;
+/// Sidebar
+$sidebar-content-width: 85%;
