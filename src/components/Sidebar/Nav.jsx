@@ -1,3 +1,4 @@
+import { useParams } from 'react-router-dom';
 import NavItem from './NavItem';
 import { ReactComponent as Bookmarks } from '../../assets/icons/bookmarks.svg';
 import { ReactComponent as Explore } from '../../assets/icons/explore.svg';
@@ -9,6 +10,8 @@ import { ReactComponent as Notifications } from '../../assets/icons/notification
 import { ReactComponent as Profile } from '../../assets/icons/profile.svg';
 
 const Nav = () => {
+  const { username } = useParams();
+
   return (
     <nav className="sidebar-nav">
       <ul className="sidebar-nav-list">
@@ -22,7 +25,7 @@ const Nav = () => {
         <NavItem to="/messages" text="Messages" icon={Messages} />
         <NavItem to="/bookmarks" text="Bookmarks" icon={Bookmarks} />
         <NavItem to="/lists" text="Lists" icon={Lists} />
-        <NavItem to="/profile/:username" text="Profile" icon={Profile} />
+        <NavItem to={`/profile/${username}`} text="Profile" icon={Profile} />
         <NavItem to="/more" text="More" icon={More} />
       </ul>
     </nav>

@@ -5,6 +5,9 @@ const Profile = () => {
   return (
     <div className="main">
       <Sidebar />
+      <section>
+        <h1>Profile page</h1>
+      </section>
       <Suggestions />
     </div>
   );
