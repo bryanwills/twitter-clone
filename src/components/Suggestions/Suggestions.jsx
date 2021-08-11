@@ -1,6 +1,5 @@
 import Search from './Search';
 import News from './News';
-import './Suggestions.scss';
 
 const Suggestions = () => {
   return (

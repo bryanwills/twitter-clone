@@ -1,6 +1,3 @@
-@import '../../assets/styles/variables';
-@import '../../assets/styles/mixins';
-
 .sidebar {
   max-width: 275px;
   height: 100%;
@@ -12,9 +9,9 @@
   }
 
   &__logo {
-    margin-left: 10px;
     width: 30px;
     height: 30px;
+    margin-left: 10px;
     color: $primary;
   }
 

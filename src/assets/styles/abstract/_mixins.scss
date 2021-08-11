@@ -1,11 +1,9 @@
 // Common button
 @mixin btnCommonState {
   transition: filter 200ms ease;
-
   &:hover {
     filter: brightness(110%);
   }
-
   &:active {
     filter: brightness(90%);
   }
@@ -13,7 +11,7 @@
 
 // Glitch
 @mixin glitchCommonStyles {
-  content: attr(data-err);
+  content: attr(data-text);
   position: absolute;
   top: 0;
   left: 0;

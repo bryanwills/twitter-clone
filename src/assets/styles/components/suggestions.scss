@@ -1,8 +1,5 @@
-@import '../../assets/styles/variables';
-
 .suggestions {
-  width: 100%;
-  max-width: 380px;
+  width: clamp(300px, 100%, 380px);
   height: 100%;
   padding: 10px 0;
   border-left: 1px solid $border-clr-500;
@@ -22,7 +19,7 @@
       border: 1px solid transparent;
       border-radius: $radius;
 
-      background: url('../../assets/icons/magnifying-glass.svg'), $search-input-bg;
+      background: url('../../icons/magnifying-glass.svg'), $search-input-bg;
       background-size: 20px, cover;
       background-position: center left 15px, center;
       background-repeat: no-repeat;
@@ -43,7 +40,7 @@
     overflow: hidden;
     padding: 10px 0;
     border-radius: $radius-sm;
-    background-color: $dark-500;
+    background-color: $dark-8;
 
     &__title {
       margin: 0 0 10px 16px;

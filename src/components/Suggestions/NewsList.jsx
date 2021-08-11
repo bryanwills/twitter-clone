@@ -12,13 +12,15 @@ const newsList = [
   },
   {
     id: 2,
-    title: 'Parler may go offline following suspensions by Amazon, Apple and Google',
+    title:
+      'Parler may go offline following suspensions by Amazon, Apple and Google',
     image: ArticleImg02,
     src: '#',
   },
   {
     id: 3,
-    title: 'India vs Australia: India hold on to earn a draw on Day 5 in Sydney Test',
+    title:
+      'India vs Australia: India hold on to earn a draw on Day 5 in Sydney Test',
     image: ArticleImg03,
     src: '#',
   },

@@ -1,7 +1,10 @@
-@import './variables';
-@import './typography';
-@import './base';
-@import './common';
-@import './mixins';
-@import './animations';
-@import './pages/error404';
+@import './abstract/variables';
+@import './abstract/mixins';
+@import './abstract/animations';
+@import './base/normalize';
+@import './base/typography';
+@import './base/base.scss';
+@import './base/common.scss';
+@import './components/sidebar.scss';
+@import './components/suggestions.scss';
+@import './pages/error404.scss';

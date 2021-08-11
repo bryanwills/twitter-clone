@@ -1,24 +1,30 @@
 // -- Colors --
 // - Main colors
+$black: #0f1419;
+$white: #ffffff;
+$dark-1: #17202a;
+$dark-2: #1c2733;
+$dark-3: #283340;
+$dark-4: #3a444c;
+$dark-5: #5b7083;
+$dark-6: #8899a6;
+$dark-7: #ebeef0;
+$dark-8: #f7f9fa;
 $primary: #1da1f2;
-$dark-900: #0f1419;
-$dark-700: #5b7083;
-$dark-500: #f7f9fa;
-$light: #ffffff;
 $danger: #f4245e;
 // - Specific colors
 // -- Text
-$text-primary: $dark-900;
-$text-secondary: $dark-700;
+$text-primary: $black;
+$text-secondary: $dark-5;
 // -- Border
-$border-clr-500: #ebeef0;
-$border-clr-700: #8899a6;
+$border-clr-500: $dark-7;
+$border-clr-700: $dark-6;
 // -- Input
-$search-input-bg: #ebeef0;
-$search-input-fg: $dark-700;
+$search-input-bg: $dark-7;
+$search-input-fg: $dark-5;
 // -- Selections
 $select-bg: $primary;
-$select-fg: $light;
+$select-fg: $white;
 
 // -- Sizes --
 // - Container

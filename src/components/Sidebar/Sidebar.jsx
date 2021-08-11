@@ -1,7 +1,6 @@
 import Nav from './Nav';
 import Btn from '../common/Btn';
 import { ReactComponent as Logo } from '../../assets/icons/logo.svg';
-import './Sidebar.scss';
 
 const Sidebar = () => {
   return (

@@ -14,7 +14,11 @@ const Nav = () => {
       <ul className="sidebar-nav-list">
         <NavItem to="/" text="Home" icon={Home} />
         <NavItem to="/explore" text="Explore" icon={Explore} />
-        <NavItem to="/notifications" text="Notifications" icon={Notifications} />
+        <NavItem
+          to="/notifications"
+          text="Notifications"
+          icon={Notifications}
+        />
         <NavItem to="/messages" text="Messages" icon={Messages} />
         <NavItem to="/bookmarks" text="Bookmarks" icon={Bookmarks} />
         <NavItem to="/lists" text="Lists" icon={Lists} />

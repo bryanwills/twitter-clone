@@ -1,7 +1,7 @@
 {
   "name": "twitter_clone",
   "description": "Simple Twitter Clone Built With React",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -22,8 +22,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "formatting": "prettier --check \"./**/*.{js,jsx}\"",
-    "formatting:all": "prettier --check \"./**/*.{js,jsx,html,scss}\"",
+    "formatting:check": "prettier --check \"./**/*.{js,jsx}\"",
+    "formatting:check:all": "prettier --check \"./**/*.{js,jsx,html,scss}\"",
     "formatting:fix": "prettier --write \"./**/*.{js,jsx}\"",
     "formatting:fix:all": "prettier --write \"./**/*.{js,jsx,html,scss}\""
   },
