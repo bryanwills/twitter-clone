@@ -1,5 +1,6 @@
 .suggestions {
-  width: clamp(300px, 100%, 380px);
+  width: 100%;
+  max-width: 380px;
   height: 100%;
   padding: 10px 0;
   border-left: 1px solid $border-clr-500;
@@ -38,6 +39,7 @@
   // News
   &-news {
     overflow: hidden;
+    width: 100%;
     padding: 10px 0;
     border-radius: $radius-sm;
     background-color: $dark-8;
@@ -68,6 +70,12 @@
         font-weight: bold;
         text-decoration: none;
         color: inherit;
+        transition: color 200ms ease;
+
+        &:focus-visible,
+        &:hover {
+          color: $primary;
+        }
       }
 
       &__img {

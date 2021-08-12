@@ -9,6 +9,19 @@
   }
 }
 
+// Flexbox
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flexCenterSpaceBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 // Glitch
 @mixin glitchCommonStyles {
   content: attr(data-text);
