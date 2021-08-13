@@ -100,9 +100,10 @@
    * -- Tweets feed -- *
    * ----------------- */
 
-   &-tweets {
+  &-tweets {
     scrollbar-width: none;
     overflow-y: scroll;
+    width: 100% !important;
     max-height: calc(100vh - 60px);
     border-top: 1px solid $border-clr-500;
 
@@ -117,5 +118,13 @@
         font-size: 18px;
       }
     }
+  }
+}
+
+.tweets-section {
+  width: 100%;
+
+  &__title {
+    margin-left: 10px;
   }
 }

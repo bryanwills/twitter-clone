@@ -1,6 +1,6 @@
 // Common button
 @mixin btnCommonState {
-  transition: filter 200ms ease;
+  transition: all 200ms ease;
   &:hover {
     filter: brightness(110%);
   }

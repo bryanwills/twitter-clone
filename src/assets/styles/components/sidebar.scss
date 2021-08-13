@@ -19,6 +19,10 @@
     width: 100%;
     padding: 15px 40px 14px 40px;
     @include btnCommonState;
+
+    &:not(:last-child) {
+      margin-bottom: 12px;
+    }
   }
 
   &-nav {

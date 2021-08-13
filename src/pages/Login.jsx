@@ -1,7 +1,11 @@
+import AuthFeatures from '../components/Auth/AuthFeatures';
+import LoginForm from '../components/Auth/LoginForm';
+
 const Login = () => {
   return (
     <div>
-      <h1>Login</h1>
+      <AuthFeatures />
+      <LoginForm />
     </div>
   );
 };

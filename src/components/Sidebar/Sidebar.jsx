@@ -9,6 +9,14 @@ const Sidebar = () => {
         <Logo className="sidebar__logo" />
         <Nav />
         <Btn classProp="sidebar__btn" text="Tweet" />
+        <Btn
+          classProp="sidebar__btn"
+          text="Log Out"
+          onClick={() => {
+            window.localStorage.removeItem('auth');
+            window.location.reload();
+          }}
+        />
       </div>
     </aside>
   );
