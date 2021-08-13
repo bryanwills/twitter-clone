@@ -1,5 +1,4 @@
 .auth-form {
-
   &-inputs {
     display: flex;
     flex-direction: column;
@@ -23,7 +22,6 @@
   }
 
   &-buttons {
-
     &__btn {
       border-radius: $radius;
       font-weight: bold;

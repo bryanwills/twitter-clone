@@ -9,10 +9,7 @@ const MainForm = () => {
         </h2>
         <p className="auth-form__subtitle">Join Twitter today</p>
         <div className="auth-form-buttons">
-          <Link
-            to="/signup"
-            className="btn auth-form-buttons__btn"
-          >
+          <Link to="/signup" className="btn auth-form-buttons__btn">
             Sign Up
           </Link>
           <Link
