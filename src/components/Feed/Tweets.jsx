@@ -18,7 +18,7 @@ const Tweets = ({ show }) => {
 
   if (show === 'all') {
     return (
-      <Fragment>
+      <div className="feed-tweets">
         {tweets.map((tweet) => (
           <Tweet
             key={tweet.id}
@@ -32,7 +32,7 @@ const Tweets = ({ show }) => {
             shared={convert(tweet.shared)}
           />
         ))}
-      </Fragment>
+      </div>
     );
   }
 
