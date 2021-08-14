@@ -1,19 +1,20 @@
+![TwitterLogo](./public/favicon.png)
+
 # Twitter clone
 
 **NPM Commands**
 
 ```shell
-$ npm run <options>
+$ npm run [OPTIONS]
 
 OPTIONS:
 
-start                - Start dev server
-build                - Build for production
-eject                - Eject config files
-formatting:check     - Check formatting of JS and JSX files
-formatting:check:all - Check formatting of JS, JSX, HTML and SCSS files
-formatting:fix       - Fix formatting of JS and JSX files
-formatting:fix:all   - Fix formatting of JS, JSX, HTML and SCSS files
+start            - Starts the development server.
+build            - Builds the app for production.
+format:check     - Checks the style of JS and JSX code.
+format:check:all - Checks the style of JS, JSX, HTML and SCSS code.
+format:fix       - Fix the style of JS and JSX code.
+format:fix:all   - Fix the style of JS, JSX, HTML and SCSS code.
 ```
 
 **Dependencies**
@@ -34,6 +35,9 @@ formatting:fix:all   - Fix formatting of JS, JSX, HTML and SCSS files
   "prettier": "^2.3.2"
 },
 ```
+
+> **NOTE:**
+> All the logos and content belongs to the original author [Twitter](https://twitter.com/).
 
 ## License
 
